@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление карты</title>
+    <link rel="stylesheet" href="offer.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav container">
+            <a class="header__nav-link" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left-icon lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+                Назад
+            </a>
+            <div class="header__nav-logo">
+                <img src="./icons/logo.png" alt="Логотип банка">
+                Kapital Bank
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__wrap container">
+            <div class="main__top">
+                <div class="main__top-img">
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card-icon lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                </div>
+                <h1 class="main__top-title">Оформление карты</h1>
+                <p class="main__top-desc">Оставьте свои контактные данные, и мы свяжемся с вами для завершения оформления</p>
+                <span class="main__top-type">uzcard</span>
+            </div>
+
+            <div class="main__centre">
+                <form class="main__centre-name">
+                    <div class="main__centre-name_text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-icon lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        Ф.И.О
+                    </div>
+                    <input placeholder="Иванов Иван Иванович" class="main__centre-name_inp" type="text">
+                </form>
+
+                <form class="main__centre-name">
+                    <div class="main__centre-name_text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+                        Номер телефона
+                    </div>
+                    <input placeholder="+998 90 123 45 67" class="main__centre-name_inp" type="text">
+                </form>
+
+                <form class="main__centre-name">
+                    <div class="main__centre-name_text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                        Город/Населенный пункт
+                    </div>
+                    <input placeholder="Ташкент" class="main__centre-name_inp" type="text">
+                </form>
+
+                <p class="main__centre-text"> <span>✓</span> Отправляя заявку, вы соглашаетесь на обработку персональных данных и получение информационных сообщений от Kapital Bank.</p>
+
+                <button class="main__centre-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card-icon lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                    Отправить заявку
+                </button>
+            </div>
+
+            <div class="main__down">
+                <h2 class="main__down-title">Что происходит дальше?</h2>
+                <ul class="main__down-list">
+                    <li class="main__down-list_par yel"><span></span>Менеджер свяжется с вами в течение 30 минут</li>
+                    <li class="main__down-list_par red"><span></span>Менеджер свяжется с вами в течение 30 минут</li>
+                    <li class="main__down-list_par green"><span></span>Менеджер свяжется с вами в течение 30 минут</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
