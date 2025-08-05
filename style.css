@@ -872,7 +872,7 @@
     gap: 40px;
 }
 
-.ready__wrap{
+.ready__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -921,14 +921,14 @@
     gap: 10px;
 }
 
-.ready__list{
+.ready__list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.ready__list_par{
+.ready__list_par {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -938,7 +938,7 @@
     margin-top: 40px;
 }
 
-.ready__list_par span{
+.ready__list_par span {
     border-radius: 50%;
     background: #76C776;
     width: 7px;
@@ -950,12 +950,12 @@
 
 /* капитал банк в цифрах */
 
-.numbers{
+.numbers {
     padding: 60px 0;
     background: #000;
 }
 
-.numbers__wrap{
+.numbers__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -963,7 +963,7 @@
     gap: 40px;
 }
 
-.numbers__top{
+.numbers__top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -971,24 +971,24 @@
     gap: 10px;
 }
 
-.numbers__top_title{
+.numbers__top_title {
     font-size: 30px;
     color: rgb(197, 168, 4);
 }
 
-.numbers__top_desc{
+.numbers__top_desc {
     color: rgb(197, 168, 4);
     font-style: 16px;
 }
 
-.numbers__cads{
+.numbers__cads {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     grid-template-rows: repeat(1, 1fr);
 }
 
-.numbers__cads_piece{
+.numbers__cads_piece {
     background: linear-gradient(135deg, #4A3A00, #2A1F00);
     border-radius: 15px;
     display: flex;
@@ -1000,21 +1000,278 @@
     transition: 0.6s ease;
 }
 
-.numbers__cads_piece:hover{
+.numbers__cads_piece:hover {
     transform: scale(1.06);
 }
 
-.numbers__cads_piece-title{
+.numbers__cads_piece-title {
     color: #FFD700;
     font-size: 36px;
 }
 
-.numbers__cads_piece-p{
+.numbers__cads_piece-p {
     color: #FFD700;
     font-size: 15px
 }
 
-.numbers__cads_piece-desc{
+.numbers__cads_piece-desc {
     font-size: 12px;
     color: #FFC107
+}
+
+/* footer */
+
+.footer {
+    background: #000;
+    padding: 60px 0;
+}
+
+
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__top_kapital {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__top_kapital-par img {
+    width: 80px;
+    height: 20px;
+}
+
+.footer__top_kapital-par {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer__top_kapital-par_title_h {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__top_kapital-par_title_p {
+    color: grey;
+    font-size: 12px;
+    max-width: 100px;
+}
+
+.footer__top_kapital-text {
+    font-size: 14px;
+    color: rgb(209, 207, 207);
+    max-width: 220px;
+}
+
+.footer__top_kapital_btn {
+    padding: 6px 14px;
+    color: #fff;
+    background: linear-gradient(315deg, #e76d2c 0%, #FFA500 74%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.footer__top_service {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__top_service-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer__top_service-par a {
+    color: rgb(209, 207, 207);
+    font-size: 14px;
+}
+
+.footer__top_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer__top_contacts-title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer__top_contacts-par {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__top_contacts-par_img {
+    padding: 8px;
+    background: linear-gradient(135deg, #CCAA00, #996600);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__top_contacts-par_desc {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footer__top_contacts-par_desc-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__top_contacts-par_desc-p {
+    font-size: 12px;
+    color: rgb(209, 207, 207);
+
+}
+
+.footer__top_contacts-par_desc {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__top_support {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__top_support_title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer__top_support-par {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__top_support-par_img {
+    padding: 8px;
+    background: #21db78;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer__top_support-par_desc {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footer__top_support-par_desc-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__top_support-par_desc-p {
+    font-size: 12px;
+    color: rgb(209, 207, 207);
+}
+
+.otdel .footer__top_support-par_img {
+    background: blue;
+}
+
+.otdel .footer__top_support-par_desc {
+    color: #fff;
+    font-size: 14px;
+}
+
+.block .footer__top_support-par_img {
+    background: rgb(79, 79, 168);
+}
+
+.block .footer__top_support-par_desc {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__wrap::after {
+    display: block;
+    content: '';
+    background: rgb(36, 36, 36);
+    width: content;
+    height: 1px;
+    margin-top: 40px;
+}
+
+.footer__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer__down-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+}
+
+.footer__down-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+}
+
+.chat {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(315deg, #e76d2c 0%, #FFA500 74%);
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+body{
+    position: relative;
+}
+
+button{
+    cursor: pointer;
 }
