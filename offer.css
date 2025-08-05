@@ -130,11 +130,16 @@
 }
 
 .main__centre-name_inp {
-    border: 1px solid rgb(94, 94, 94);
+    border: 2px solid rgb(94, 94, 94);
     color: black;
     width: 100%;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+input:focus {
+    border: 2px solid rgb(240, 191, 29, 1);
+
 }
 
 .main__centre-text span {
@@ -171,9 +176,9 @@
     padding: 40px 60px;
     flex-direction: column;
     gap: 20px;
-    background: rgb(255, 255, 204);
+    background: rgb(255, 255, 204, 0.3);
     border-radius: 10px;
-
+    border: 1px solid rgb(240, 191, 29, 0.3);
 
 }
 
