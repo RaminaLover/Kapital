@@ -293,10 +293,10 @@
 /* Все карты */
 
 .cards__down {
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding: 60px 0;
 }
 
 /* Сама карточка */
@@ -589,7 +589,7 @@
     color: white;
 }
 
-.platinum .cards__down_card_left-btns_offer{
+.platinum .cards__down_card_left-btns_offer {
     background: linear-gradient(to left, #000000, #434343);
 }
 
@@ -644,4 +644,377 @@
 .world .cards__down_card_right-logos_type {
     background: #ff5656;
     padding: 6px;
+}
+
+
+/* Блок почему выбирают */
+
+.pick {
+    padding: 60px 0;
+}
+
+.pick__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pick__desc_title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.pick__desc_p {
+    font-size: 18px;
+    color: grey;
+    max-width: 480px;
+    text-align: center;
+}
+
+.pick__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.pick__cards_piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background: #f9fafc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+.pick__cards_piece-img {
+    background: #00ab41;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: 0.6s ease;
+
+}
+
+.pick__cards_piece-img:hover {
+    transform: rotate(30deg);
+}
+
+.pick__cards_piece-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pick__cards_piece-desc {
+    font-size: 12px;
+    color: grey;
+    max-width: 240px;
+    text-align: center;
+}
+
+/* internet */
+
+.internet .pick__cards_piece-img {
+    background: blue;
+}
+
+/* paymnets */
+
+.payments .pick__cards_piece-img {
+    background: rgb(79, 79, 168);
+}
+
+/* card */
+
+.card .pick__cards_piece-img {
+    background: linear-gradient(315deg, #e76d2c 0%, #FFA500 74%);
+}
+
+/* daily */
+
+.daily .pick__cards_piece-img {
+    background: radial-gradient(circle, #ce0808, #FF6347);
+}
+
+/* support */
+
+.support .pick__cards_piece-img {
+    background: #007906;
+}
+
+/* Блок хуйни */
+
+.ready {
+    background: linear-gradient(135deg, #2B1B1B, #0D0000);
+    padding: 60px 0;
+}
+
+.ready__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ready__top_title {
+    font-size: 40px;
+    color: #fff;
+    max-width: 400px;
+    text-align: center;
+}
+
+.ready__top_title span {
+    background: linear-gradient(315deg, #e76d2c 0%, #FFA500 74%);
+    color: transparent;
+    background-clip: text;
+}
+
+.rady__top_p {
+    color: rgb(190, 189, 189);
+    font-size: 18px;
+    text-align: center;
+    max-width: 660px;
+}
+
+.ready__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.ready__cards_piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    background: #220f01;
+    padding: 20px 40px;
+    border-radius: 14px;
+}
+
+.ready__cards_piece-img {
+    border-radius: 10px;
+    padding: 6px 10px;
+    background: linear-gradient(315deg, #e76d2c 0%, #FFA500 74%);
+
+}
+
+.ready__cards_piece-title {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.ready__cards_piece-desc {
+    font-size: 12px;
+    color: rgb(163, 163, 163);
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.ready__fnct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.ready__fnct-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ready__fnct-btns_offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(315deg, #e76d2c 0%, #FFA500 74%);
+    padding: 4px 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.ready__fnct-btns_consult {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 30px;
+    background: none;
+}
+
+
+
+.ready__fnct-sup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.ready__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ready__wrap::after {
+    display: block;
+    content: '';
+    height: 1px;
+    width: 1000px;
+    background: grey;
+    margin-top: 40px;
+}
+
+.ready__fnct-sup_call::after {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 13px;
+    background: grey;
+    margin-left: 20px;
+}
+
+.ready__fnct-sup_call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+    font-size: 12px;
+}
+
+.ready__fnct-sup_call-btn {
+    color: rgb(214, 184, 13);
+    font-size: 13px;
+}
+
+.ready__fnct-sup_chat {
+    color: rgb(214, 184, 13);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ready__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ready__list_par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: grey;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.ready__list_par span{
+    border-radius: 50%;
+    background: #76C776;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+}
+
+
+
+/* капитал банк в цифрах */
+
+.numbers{
+    padding: 60px 0;
+    background: #000;
+}
+
+.numbers__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.numbers__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.numbers__top_title{
+    font-size: 30px;
+    color: rgb(197, 168, 4);
+}
+
+.numbers__top_desc{
+    color: rgb(197, 168, 4);
+    font-style: 16px;
+}
+
+.numbers__cads{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.numbers__cads_piece{
+    background: linear-gradient(135deg, #4A3A00, #2A1F00);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+    transition: 0.6s ease;
+}
+
+.numbers__cads_piece:hover{
+    transform: scale(1.06);
+}
+
+.numbers__cads_piece-title{
+    color: #FFD700;
+    font-size: 36px;
+}
+
+.numbers__cads_piece-p{
+    color: #FFD700;
+    font-size: 15px
+}
+
+.numbers__cads_piece-desc{
+    font-size: 12px;
+    color: #FFC107
 }
