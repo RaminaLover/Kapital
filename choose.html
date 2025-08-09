@@ -1,11 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Выберите тип карты</title>
+    <link rel="stylesheet" href="choose.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav class="header__nav container">
+            <a class="header__nav-link" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-chevron-left-icon lucide-chevron-left">
+                    <path d="m15 18-6-6 6-6" />
+                </svg>
+                Назад
+            </a>
+            <div class="header__nav-logo">
+                <img src="./icons/logo.png" alt="Логотип банка">
+                Kapital Bank
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__wrap container">
+            <div class="main__top">
+                <h1 class="main__top-title">Выберите тип карты</h1>
+                <p class="main__top-desc">Выберите карту, которая лучше всего подходит для ваших потребностей</p>
+            </div>
+
+            <div class="main__cards">
+                <div class="main__cards-piece" tabindex="0">
+                    <span class="main__cards-piece_span">Популярная</span>
+                    <div class="main__cards-piece_card">
+                        <div class="main__cards-piece_card-logo">
+                            <img src="./icons/card_logo.png" alt="Логотип банка">
+                            <div class="main__cards-piece_card-logo_empty"></div>
+                        </div>
+                        <span class="main__cards-piece_card-num">•••• •••• •••• 1340</span>
+                    </div>
+                    <h3 class="main__cards-piece_title">UzCard/Humo</h3>
+                    <span class="main__cards-piece_type">Национальная карта</span>
+                    <p class="main__cards-piece_desc">Идеальная карта для повседневных покупок с кэшбеком до 1%</p>
+                    <ul class="main__cards-piece_list">
+                        <li class="main__cards-piece_list-par"><span></span>1% кэшбек</li>
+                        <li class="main__cards-piece_list-par"><span></span>Бесплатное обслуживание</li>
+                        <li class="main__cards-piece_list-par"><span></span>Мгновенный выпуск</li>
+                    </ul>
+
+                    <span class="main__cards-piece_tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-check-icon lucide-check">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                    </span>
+
+                </div>
+
+                <div class="main__cards-piece" tabindex="0">
+                    <span class="main__cards-piece_span">Международная</span>
+                    <div class="main__cards-piece_card">
+                        <div class="main__cards-piece_card-logo">
+                            <img src="./icons/card_logo.png" alt="Логотип банка">
+                            <div class="main__cards-piece_card-logo_empty"></div>
+                        </div>
+                        <span class="main__cards-piece_card-num">•••• •••• •••• 1340</span>
+                    </div>
+                    <h3 class="main__cards-piece_title">Visa Gold</h3>
+                    <span class="main__cards-piece_type">Международная карта</span>
+                    <p class="main__cards-piece_desc">Престижная карта для путешествий с привилегиями по всему миру</p>
+                    <ul class="main__cards-piece_list">
+                        <li class="main__cards-piece_list-par"><span></span>Принимается в 200+ странах</li>
+                        <li class="main__cards-piece_list-par"><span></span>Страхование</li>
+                        <li class="main__cards-piece_list-par"><span></span>
+VIP сервис</li>
+                    </ul>
+
+                    <span class="main__cards-piece_tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-check-icon lucide-check">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                    </span>
+
+                </div>
+
+                <div class="main__cards-piece" tabindex="0"> <span class="main__cards-piece_span">Премиум</span>
+                    <div class="main__cards-piece_card">
+                        <div class="main__cards-piece_card-logo">
+                            <img src="./icons/card_logo.png" alt="Логотип банка">
+                            <div class="main__cards-piece_card-logo_empty"></div>
+                        </div>
+                        <span class="main__cards-piece_card-num">•••• •••• •••• 1340</span>
+                    </div>
+                    <h3 class="main__cards-piece_title">MasterCard Gold</h3>
+                    <span class="main__cards-piece_type">Международная карта</span>
+                    <p class="main__cards-piece_desc">Карта с эксклюзивными привилегиями MasterCard World Elite</p>
+                    <ul class="main__cards-piece_list">
+                        <li class="main__cards-piece_list-par"><span></span>
+Принимается в 210+ странах</li>
+                        <li class="main__cards-piece_list-par"><span></span>
+Консьерж-сервис</li>
+                        <li class="main__cards-piece_list-par"><span></span>
+Премиум услуги</li>
+                    </ul>
+
+                    <span class="main__cards-piece_tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-check-icon lucide-check">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                    </span>
+
+                </div>
+
+                <div class="main__cards-piece platinum" tabindex="0"> <span class="main__cards-piece_span">Бизнес</span>
+                    <div class="main__cards-piece_card">
+                        <div class="main__cards-piece_card-logo">
+                            <img src="./icons/card_logo.png" alt="Логотип банка">
+                            <div class="main__cards-piece_card-logo_empty"></div>
+                        </div>
+                        <span class="main__cards-piece_card-num">•••• •••• •••• 1340</span>
+                    </div>
+                    <h3 class="main__cards-piece_title">Visa Platinum</h3>
+                    <span class="main__cards-piece_type">Премиальная карта</span>
+                    <p class="main__cards-piece_desc">Мультивалютная карта для бизнеса и инвестиций</p>
+                    <ul class="main__cards-piece_list">
+                        <li class="main__cards-piece_list-par"><span></span>Мультивалютность</li>
+                        <li class="main__cards-piece_list-par"><span></span>VIP-обслуживание</li>
+                        <li class="main__cards-piece_list-par"><span></span>
+Высокие лимиты</li>
+                    </ul>
+
+                    <span class="main__cards-piece_tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-check-icon lucide-check">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                    </span>
+
+                </div>
+
+                <div class="main__cards-piece infinite" tabindex="0"> <span class="main__cards-piece_span">VIP</span>
+                    <div class="main__cards-piece_card">
+                        <div class="main__cards-piece_card-logo">
+                            <img src="./icons/card_logo.png" alt="Логотип банка">
+                            <div class="main__cards-piece_card-logo_empty"></div>
+                        </div>
+                        <span class="main__cards-piece_card-num">•••• •••• •••• 1340</span>
+                    </div>
+                    <h3 class="main__cards-piece_title">Visa Infinite</h3>
+                    <span class="main__cards-piece_type">VIP карта
+
+</span>
+                    <p class="main__cards-piece_desc">Эксклюзивная карта с безграничными возможностями
+
+</p>
+                    <ul class="main__cards-piece_list">
+                        <li class="main__cards-piece_list-par"><span></span>Безлимитные операции
+</li>
+                        <li class="main__cards-piece_list-par"><span></span>Персональный менеджер
+</li>
+                        <li class="main__cards-piece_list-par"><span></span>Элитные привилегии
+</li>
+                    </ul>
+
+                    <span class="main__cards-piece_tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-check-icon lucide-check">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                    </span>
+
+                </div>
+
+                <div class="main__cards-piece" tabindex="0"> <span class="main__cards-piece_span">Семейная</span>
+                    <div class="main__cards-piece_card">
+                        <div class="main__cards-piece_card-logo">
+                            <img src="./icons/card_logo.png" alt="Логотип банка">
+                            <div class="main__cards-piece_card-logo_empty"></div>
+                        </div>
+                        <span class="main__cards-piece_card-num">•••• •••• •••• 1340</span>
+                    </div>
+                    <h3 class="main__cards-piece_title">Детские карты
+</h3>
+                    <span class="main__cards-piece_type">Для юных финансистов
+
+</span>
+                    <p class="main__cards-piece_desc">Специальные карты с родительским контролем и обучением
+
+</p>
+                    <ul class="main__cards-piece_list">
+                        <li class="main__cards-piece_list-par"><span></span>Родительский контроль
+</li>
+                        <li class="main__cards-piece_list-par"><span></span>Обучение финансам
+</li>
+                        <li class="main__cards-piece_list-par"><span></span>Безопасные лимиты
+</li>
+                    </ul>
+
+                    <span class="main__cards-piece_tick">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-check-icon lucide-check">
+                            <path d="M20 6 9 17l-5-5" />
+                        </svg>
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="main__btn">
+                            <a href="offer.html" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card-icon lucide-credit-card"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                Продолжить
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            </div>
+        </div>
+    </main>
+
+
 </body>
+
 </html>

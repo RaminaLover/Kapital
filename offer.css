@@ -11,6 +11,11 @@
     outline: none;
 }
 
+
+body{
+    background: #eeecec;
+}
+
 .container {
     max-width: 1300px;
     padding: 0 15px;
@@ -20,10 +25,17 @@
 
 
 .header {
-    padding: 40px 0;
+    padding: 20px 0 0;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: #fff;
 }
+
 
 .header::after {
     display: block;
@@ -31,9 +43,8 @@
     height: 1px;
     width: content;
     background: rgb(223, 223, 223);
-    margin-top: 40px;
+    margin-top: 20px;
 }
-
 .header__nav {
     display: flex;
     justify-content: space-between;
@@ -114,8 +125,9 @@
     flex-direction: column;
     width: 600px;
     padding: 20px 60px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     gap: 30px;
+    background: #fff;
+    border-radius: 10px;
 }
 
 .main__centre-name {
